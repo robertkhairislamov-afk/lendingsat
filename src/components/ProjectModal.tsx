@@ -340,7 +340,7 @@ export function ProjectModal({ isOpen, onClose, project }: ProjectModalProps) {
                   <div className="flex flex-col gap-3 sm:flex-row">
                     {project.id === 'ai-organizer' && (
                       <button
-                        onClick={() => window.open('https://t.me/your_bot_name', '_blank')}
+                        onClick={() => window.open('https://t.me/saturway_bot', '_blank')}
                         className="group flex flex-1 items-center justify-center gap-2 rounded-xl px-8 py-4 text-lg text-white transition-all hover:shadow-lg"
                         style={{
                           background: `linear-gradient(135deg, ${project.colors.primary}, ${project.colors.secondary})`,
@@ -353,7 +353,7 @@ export function ProjectModal({ isOpen, onClose, project }: ProjectModalProps) {
                     
                     {project.id === 'thailand-car' && (
                       <button
-                        onClick={() => window.open('https://saturway.space/', '_blank')}
+                        onClick={() => window.open('https://saturway.space/thailand-my-car/', '_blank')}
                         className="group flex flex-1 items-center justify-center gap-2 rounded-xl px-8 py-4 text-lg text-white transition-all hover:shadow-lg"
                         style={{
                           background: `linear-gradient(135deg, ${project.colors.primary}, ${project.colors.secondary})`,

@@ -699,7 +699,7 @@ export function Landing() {
                       {t('landing.cta.aiOrganizerDesc')}
                     </p>
                     <button
-                      onClick={() => window.open('https://t.me/your_bot_name', '_blank')}
+                      onClick={() => window.open('https://t.me/saturway_bot', '_blank')}
                       className="w-full min-h-[52px] md:min-h-[56px] rounded-xl bg-gradient-to-r from-[#4A9FD8] to-[#52C9C1] px-6 md:px-8 py-3 md:py-4 text-sm md:text-base text-white transition-all hover:shadow-lg active:scale-95"
                     >
                       {t('landing.cta.aiOrganizerBtn')}
@@ -718,7 +718,7 @@ export function Landing() {
                       {t('landing.cta.thailandCarDesc')}
                     </p>
                     <button
-                      onClick={() => window.open('https://saturway.space/', '_blank')}
+                      onClick={() => window.open('https://saturway.space/thailand-my-car/', '_blank')}
                       className="w-full min-h-[52px] md:min-h-[56px] rounded-xl bg-gradient-to-r from-[#0D9488] to-[#14B8A6] px-6 md:px-8 py-3 md:py-4 text-sm md:text-base text-white transition-all hover:shadow-lg active:scale-95"
                     >
                       {t('landing.cta.thailandCarBtn')}

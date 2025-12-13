@@ -284,7 +284,7 @@ export function MobileBottomSheet({ isOpen, onClose, project }: MobileBottomShee
                   {project.id === 'ai-organizer' && (
                     <button
                       onClick={() => {
-                        window.open('https://t.me/your_bot_name', '_blank');
+                        window.open('https://t.me/saturway_bot', '_blank');
                         onClose();
                       }}
                       className="group flex w-full min-h-[56px] items-center justify-center gap-2 rounded-xl px-8 py-4 text-white transition-all hover:shadow-lg active:scale-95"
@@ -300,7 +300,7 @@ export function MobileBottomSheet({ isOpen, onClose, project }: MobileBottomShee
                   {project.id === 'thailand-car' && (
                     <button
                       onClick={() => {
-                        window.open('https://saturway.space/', '_blank');
+                        window.open('https://saturway.space/thailand-my-car/', '_blank');
                         onClose();
                       }}
                       className="group flex w-full min-h-[56px] items-center justify-center gap-2 rounded-xl px-8 py-4 text-white transition-all hover:shadow-lg active:scale-95"
